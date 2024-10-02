@@ -1,0 +1,10 @@
+version: 1
+services:
+  - type: web
+    name: jelerydbms  # Change this ervice name
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    runtime: node
+    healthCheckPath: /   # Adjust as needed
