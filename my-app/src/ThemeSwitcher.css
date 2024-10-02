@@ -1,0 +1,29 @@
+/* Styles for the ThemeSwitcher component */
+.theme-switcher {
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  .theme-switcher button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .theme-switcher button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Light theme */
+  body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark theme */
+  body.dark {
+    background-color: black;
+    color: white;
+  }
+  

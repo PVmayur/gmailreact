@@ -1,0 +1,77 @@
+/* MyDiverseForm.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.form-container {
+    max-width: 600px; /* Set a max width for the form */
+    margin: 50px auto; /* Center the form on the page */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    background-color: white; /* White background for the form */
+}
+
+.form-title {
+    text-align: center; /* Center the title */
+    color: #343a40; /* Dark color for title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-label {
+    font-weight: bold; /* Make labels bold */
+    color: #495057; /* Dark gray color */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+.form-input,
+.form-select {
+    padding: 10px; /* Space inside inputs */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    transition: border 0.2s; /* Smooth transition for border color */
+}
+
+.form-input:focus,
+.form-select:focus {
+    border: 1px solid #007bff; /* Highlight on focus */
+    outline: none; /* Remove outline */
+}
+
+.error-message {
+    color: #dc3545; /* Red color for error messages */
+    font-size: 0.875em; /* Slightly smaller font for errors */
+}
+
+.radio-label {
+    margin-left: 5px; /* Space between radio and label */
+}
+
+.terms-label {
+    margin-left: 10px; /* Space for terms checkbox label */
+}
+
+.submit-button {
+    padding: 10px; /* Padding for button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
